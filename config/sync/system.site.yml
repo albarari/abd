@@ -1,0 +1,14 @@
+uuid: 2c7760bb-7bd5-4a47-b1a1-8da2a1c2b3a6
+name: 'Drupal 8'
+mail: sajjad.haider@albarari.ae
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

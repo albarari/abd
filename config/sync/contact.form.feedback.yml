@@ -1,0 +1,14 @@
+uuid: 19949d76-f9e6-40b8-9510-bd9eb6ee525f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - sajjad.haider@albarari.ae
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''
