@@ -1,0 +1,51 @@
+uuid: f6bdcd71-99d2-4afe-8079-b5a910f9653f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.recipes.body
+    - field.field.node.recipes.field_directions
+    - field.field.node.recipes.field_ingredients
+    - field.field.node.recipes.field_servings
+    - node.type.recipes
+  module:
+    - text
+    - user
+id: node.recipes.default
+targetEntityType: node
+bundle: recipes
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_directions:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_ingredients:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_servings:
+    weight: 104
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

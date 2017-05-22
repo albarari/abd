@@ -1,0 +1,19 @@
+uuid: f35b6e67-1f0f-4fb4-8c70-0773a6339d52
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_directions
+field_name: field_directions
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,22 @@
+uuid: 15f5ba46-e22b-49c7-b029-c5524e17a0af
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.recipes
+  module:
+    - text
+id: node.recipes.body
+field_name: body
+entity_type: node
+bundle: recipes
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
